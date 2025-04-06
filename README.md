@@ -3,38 +3,11 @@
 ## Overview
 The Supabase plugin for WeWeb enables seamless integration with Supabase's backend services, allowing you to manage authentication, database operations, users, and role-based access control directly from your WeWeb application.
 
-## Table of Contents
-- [Installation](#installation)
-- [Authentication](#authentication)
-- [User Management](#user-management)
-- [Role-Based Access Control](#role-based-access-control)
-- [Data Operations](#data-operations)
-- [Common Integration Patterns](#common-integration-patterns)
-- [Troubleshooting](#troubleshooting)
-
+My portal has a clean interface, minimalist design and user focused needs, what I develop work as a prototype because it doesn't has all the functionality developed. All the pages follow the Jakob Nielsen's 10 general principles for interaction design.
 ## Installation
 1. Navigate to the WeWeb plugin marketplace
 2. Search for "Supabase" and click Install
 3. Enter your Supabase credentials
-
-
-### Implementing Authentication Flow
-```javascript
-// Sign up a new user
-supabase.auth.signUp({
-  email: 'user@example.com',
-  password: 'securepassword'
-});
-
-// Sign in existing user
-supabase.auth.signIn({
-  email: 'user@example.com',
-  password: 'securepassword'
-});
-
-// Sign out
-supabase.auth.signOut();
-```
 
 ## User Management
 
@@ -78,6 +51,12 @@ USING (auth.uid() = user_id);
    ```
 3. Test policies with WeWeb's preview mode
 ---
+
+### Challenges Faced
+Weweb while flexible, there are still limits to what can be customized compared to traditional development, at the same time the application is tied to Weweb's ecosystem. 
+In my opinion the platform is great for prototyping, the AI to generate UIs fast than any human can do,using weweb I can spend more time in technical complexities.
+For organizations needing to quickly validate ideas before committing development resources, this hybrid approach of low-code with AI-powered is powerfull.
+
 ### Additional Resources
 [Supabase Documentation](https://supabase.io)
 [Weweb documentation](https://docs.weweb.io)
