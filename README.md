@@ -4,6 +4,10 @@
 The Supabase plugin for WeWeb enables seamless integration with Supabase's backend services, allowing you to manage authentication, database operations, users, and role-based access control directly from your WeWeb application.
 
 My portal has a clean interface, minimalist design and user focused needs, what I develop work as a prototype because it doesn't has all the functionality developed. All the pages follow the Jakob Nielsen's 10 general principles for interaction design.
+
+Home page: https://bfbcac28-3063-4dbf-9631-8d2d8d3ad868.weweb-preview.io/
+Login: https://bfbcac28-3063-4dbf-9631-8d2d8d3ad868.weweb-preview.io/login/
+Sign up: https://bfbcac28-3063-4dbf-9631-8d2d8d3ad868.weweb-preview.io/signup/
 ## Installation
 1. Navigate to the WeWeb plugin marketplace
 2. Search for "Supabase" and click Install
