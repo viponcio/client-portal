@@ -56,14 +56,16 @@ supabase.auth.signOut();
 3. Create role hierarchies if needed
 
 ### Assigning Roles to Users
-```javascript
-// Assign role to user
-supabase
-  .from('user_roles')
-  .insert({
-    user_id: userId,
-    role: 'admin'
-  });
+```sql
+CREATE POLICY "Users can view their own profile"
+ON profiles
+FOR SELECT
+USING (auth.uid() = user_id);
+
+CREATE POLICY "Users can update their own profile"
+ON profiles
+FOR UPDATE
+USING (auth.uid() = user_id);
 ```
 
 ### Row-Level Security (RLS)
