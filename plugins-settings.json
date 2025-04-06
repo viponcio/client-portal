@@ -1,0 +1,42 @@
+{
+    "2bd1c688-31c5-443e-ae25-59aa5b6431fb": {
+        "id": "21cc6c69-5679-4181-889e-6b3478b7a084",
+        "name": "REST API",
+        "designId": "bfbcac28-3063-4dbf-9631-8d2d8d3ad868",
+        "pluginId": "2bd1c688-31c5-443e-ae25-59aa5b6431fb",
+        "publicData": {}
+    },
+    "f9ef41c3-1c53-4857-855b-f2f6a40b7186": {
+        "id": "e27641bf-f2da-480b-8917-c2596ca105e4",
+        "name": "Supabase",
+        "designId": "bfbcac28-3063-4dbf-9631-8d2d8d3ad868",
+        "pluginId": "f9ef41c3-1c53-4857-855b-f2f6a40b7186",
+        "publicData": {
+            "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRhaWh3b2R1a25saGVqbHhzYmhxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDMxODU2NjUsImV4cCI6MjA1ODc2MTY2NX0.zuRcMLPFhnV2LwqgA9_QwNwNaWFbucq5nsKEDm9HR4A",
+            "projectUrl": "https://taihwoduknlhejlxsbhq.supabase.co",
+            "realtimeTables": {
+                "test": true,
+                "roles": true,
+                "profiles": true,
+                "test-img": true,
+                "documents": true,
+                "users_roles": true
+            }
+        }
+    },
+    "1fa0dd68-5069-436c-9a7d-3b54c340f1fa": {
+        "id": "f2a70a0c-2a77-411f-98d2-20a6d4ed5232",
+        "name": "Supabase Auth",
+        "designId": "bfbcac28-3063-4dbf-9631-8d2d8d3ad868",
+        "pluginId": "1fa0dd68-5069-436c-9a7d-3b54c340f1fa",
+        "publicData": {
+            "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRhaWh3b2R1a25saGVqbHhzYmhxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDMxODU2NjUsImV4cCI6MjA1ODc2MTY2NX0.zuRcMLPFhnV2LwqgA9_QwNwNaWFbucq5nsKEDm9HR4A",
+            "roleTable": "roles",
+            "projectUrl": "https://taihwoduknlhejlxsbhq.supabase.co",
+            "userRoleTable": "users_roles",
+            "roleTableNameColumn": "name",
+            "userRoleTableRoleColumn": "role_id",
+            "userRoleTableUserColumn": "user_id"
+        }
+    }
+}
